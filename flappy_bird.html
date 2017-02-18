@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./js/common/util.js"></script>
+    <script src="./js/common/Event.js"></script>
+    <script src="./js/common/imageLoad.js"></script>
+    <script src="./js/component/text.js"></script>
+    <script src="./js/component/button.js"></script>
+    <script src="./js/role/baseRole.js"></script>
+    <script src="./js/role/bird.js"></script>
+    <script src="./js/role/land.js"></script>
+    <script src="./js/role/pipe.js"></script>
+    <script src="./js/role/sky.js"></script>
+    <script src="./js/role/timer.js"></script>
+    <script src="./js/scene/baseScene.js"></script>
+    <script src="./js/scene/gameScene.js"></script>
+    <script src="./js/scene/overScene.js"></script>
+    <script src="./js/scene/startScene.js"></script>
+    <script src="./js/flappyBird.js"></script>
+</head>
+<body>
+    <section id="flappy-bird"></section>
+    <script>
+        var flyB = new FlappyBird('#flappy-bird');
+        flyB.run();
+    </script>
+</body>
+</html>
